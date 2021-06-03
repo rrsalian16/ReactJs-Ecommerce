@@ -1,0 +1,40 @@
+.bottom-div {
+  background-color: #7436ff;
+  height: 30px;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
+
+.bottom-div h3 {
+  text-shadow: 1px 2px 3px rgb(27, 27, 27);
+}
+
+.checkout-btn {
+  background-color: white;
+  border: none;
+  padding: 5px 8px;
+  color: #7436ff;
+  border-radius: 10px;
+  box-shadow: 2px 2px 3px black;
+  outline: none;
+}
+
+.checkout-btn:active {
+  box-shadow: none;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.empty-cart {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

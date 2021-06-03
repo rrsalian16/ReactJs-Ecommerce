@@ -1,0 +1,33 @@
+h1,
+p {
+  font-family: Lato;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.route-link-list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  list-style: none;
+  margin-right: 40px;
+}
+
+.header {
+  background-color: #7436ff;
+  padding: 5px;
+}
+
+.route-link-item a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.route-link-item.logo a {
+  font-size: 25px;
+  font-weight: bold;
+  text-shadow: 1px 2px 3px rgb(27, 27, 27);
+}

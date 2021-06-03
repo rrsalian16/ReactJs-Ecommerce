@@ -1,0 +1,50 @@
+.checklist-item {
+  list-style: none;
+  margin: 15px 0;
+  margin-left: 30px;
+}
+.checklist-item .delete-btn {
+  float: right;
+  margin-right: 30px;
+  padding: 5px 8px;
+  background-color: #7436ff;
+  color: white;
+  border: none;
+  box-shadow: 1px 2px 3px rgb(134, 130, 130);
+}
+
+.card {
+  background-color: #7436ff;
+  color: white;
+  padding: 10px;
+  margin: 10px;
+  flex: 1 1 auto;
+}
+
+.card-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 2px solid white;
+  padding: 5px;
+  margin: 10px 0;
+}
+
+.card-footer > * {
+  margin: 10px 10px 10px 0;
+}
+
+.card-button {
+  padding: 5px 8px;
+  color: white;
+  border: 2px solid white;
+  box-shadow: 1px 2px 3px rgb(3, 3, 3);
+  outline: none;
+  border-radius: 10px;
+  background-color: #7436ff;
+  width: 100px;
+}
+
+.card-button:active {
+  box-shadow: none;
+}
